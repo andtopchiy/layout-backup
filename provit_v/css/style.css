@@ -1,0 +1,218 @@
+@font-face {
+    font-family: 'MyriadPro-LightIt';
+    src: url('../fonts/MyriadPro-LightIt.eot');
+    src: local('☺'), url('../fonts/MyriadPro-LightIt.woff') format('woff'), url('../fonts/MyriadPro-LightIt.ttf') format('truetype'), url('../fonts/MyriadPro-LightIt.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-BoldCondIt';
+    src: url('../fonts/MyriadPro-BoldCondIt.eot');
+    src: local('☺'), url('../fonts/MyriadPro-BoldCondIt.woff') format('woff'), url('../fonts/MyriadPro-BoldCondIt.ttf') format('truetype'), url('../fonts/MyriadPro-BoldCondIt.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-BoldCond';
+    src: url('../fonts/MyriadPro-BoldCond.eot');
+    src: local('☺'), url('../fonts/MyriadPro-BoldCond.woff') format('woff'), url('../fonts/MyriadPro-BoldCond.ttf') format('truetype'), url('../fonts/MyriadPro-BoldCond.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MyriadPro-Bold';
+    src: url('../fonts/MyriadPro-Bold.eot');
+    src: local('☺'), url('../fonts/MyriadPro-Bold.woff') format('woff'), url('../fonts/MyriadPro-Bold.ttf') format('truetype'), url('../fonts/MyriadPro-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, sans-serif;
+	width: 100%;
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+.header {
+	height: 240px;
+	/*background: #FFE680;*/
+}
+.header_in {
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    width: 280px;
+    height: 132px;
+    text-align: center;
+    background: url("../images/logo_bg.jpg") no-repeat;
+    padding-top: 13px;
+    margin-top: 13px;
+}
+.logo a{
+    font-family: 'MyriadPro-LightIt';
+    text-decoration: none;
+    font-size: 14px;
+    color: #2d2f7c;
+}
+.logo a img{
+    margin-top: 13px;
+}
+.header_center{
+    float: left;
+    width: 330px;
+    padding-top: 46px;
+    margin-left: 48px;
+}
+.header_center h3{
+    font-family: 'MyriadPro-BoldCondIt';
+    font-size: 30px;
+    line-height: 1.3;
+    text-align: center;
+    color: #3b3d3e;
+}
+.header_center span{
+    color: #d5141b;
+    text-transform: uppercase;
+}
+.header_cont{
+    float: right;
+    margin-top: 15px;
+}
+.header_cont ul li{
+    list-style: none;
+    margin-bottom: 0px;
+}
+.geo_cont{
+    font-family: 'MyriadPro-BoldCond';
+    font-size: 18px;
+    color: #3b3d3e;
+    padding-left: 59px;
+    padding-bottom: 17px;
+    padding-top: 2px;
+    background: url("../images/geo_icon.jpg") no-repeat 0px 0px;
+}
+.geo_cont span{
+    font-size: 14px;
+}
+.mail_cont{
+    font-family: 'MyriadPro-BoldCond';
+    font-size: 18px;
+    color: #3b3d3e;
+    padding-left: 59px;
+    background: url("../images/mail_icon.jpg") no-repeat 0px 1px;
+    padding-bottom: 17px;
+    padding-top: 10px;
+}
+
+.phone_cont{
+    font-family: 'MyriadPro-Bold';
+    font-size: 24px;
+    background: url("../images/phone_icon.jpg") no-repeat 0px 8px;
+    padding-left: 59px;
+    padding-bottom: 17px;
+    padding-top: 10px;
+    color: #d5141b;
+}
+.phone_cont span{
+    font-size: 18px;
+    text-align: right;
+    display: block;
+    width: 156px;
+    margin-top: 7px;
+}
+
+
+.main_menu{
+    background: url("../images/menu_bg.png") repeat-x;
+    height: 59px;
+    clear: both;
+    text-align: center;
+}
+.main_menu div nav{
+
+}
+.main_menu div nav a{
+    font-family: 'MyriadPro-BoldCondIt';
+    text-decoration: none;
+    font-size: 24px;
+    color: #ffffff;
+    margin-right: 55px;
+    display: inline-block;
+    padding-top: 17px;
+    height: 35px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.main_menu div nav a:hover,.main_menu div nav .active{
+    background: url("../images/menu_on.png") repeat-x 0% 100%;
+    color: #78390f;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 366px;
+}
+.main_in {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main_slider{
+    margin-top: 12px;
+}
+
+.osnov_zapchas{
+    margin-top: 21px;
+}
+.osnov_zapchas h3{
+    font-family: 'MyriadPro-BoldCond';
+    font-size: 24px;
+    height: 40px;
+    color: #3b3d3e;
+    text-align: center;
+    background: #e7e7e6;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.osnov_zapchas ul li{
+    float: left;
+    list-style: none;
+    margin-right: 70px;
+}
+
+
+.news{
+    clear:left;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	width: 1000px;
+	margin: -366px auto 0;
+	height: 366px;
+	background: #BFF08E;
+	position: relative;
+}

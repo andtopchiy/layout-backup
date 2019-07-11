@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="js/transition.js"></script>
+</head>
+
+<body>
+<header class="header_tovar">
+    <div class="header_in_tovar">
+        <div class="logo_tivar">
+            <a href="#"><img src="images/in_logo.jpg" alt=""/></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="active"><a href="#">Детская комната</a></li>
+                <li><a href="#">Ванная комната</a></li>
+                <li><a href="#">Одежда</a></li>
+                <li><a href="#">Игрушки</a></li>
+                <li><a href="#">Декор</a></li>
+                <li><a href="#">Прадники</a></li>
+            </ul>
+        </div>
+        <div class="right_side_main">
+            <div class="login">
+                <p>Андрей (<a href="#">Выход</a>)</p>
+            </div>
+
+            <div class="cart">
+                <a href="">Корзина (4)</a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Что-то ищите?" title="Что-то ищите?"/>
+                <a href="#"><img src="images/searche_icn.png" alt=""/></a>
+            </div>
+        </div>
+    </div>
+</header><!-- .header-->
+<div class="filter">
+    <div class="filter_in">
+        <div class="for_how">
+            <h4>Для кого?</h4>
+            <div class="check">
+                <input type="checkbox" id="c1" name="cc" />
+                <label for="c1"><span></span>мальчик</label>
+                <input type="checkbox" id="c2" name="cc" />
+                <label for="c2"><span></span>девочка</label>
+                <input type="checkbox" id="c3" name="cc" />
+                <label for="c3"><span></span>унисекс</label>
+            </div>
+            <h4>Рост</h4>
+            <div class="check">
+                <input type="checkbox" id="c4" name="cc" />
+                <label for="c4"><span></span>до 1 м</label>
+                <input type="checkbox" id="c5" name="cc" />
+                <label for="c5"><span></span>100-130 см</label>
+                <input type="checkbox" id="c6" name="cc" />
+                <label for="c6"><span></span>130-150 см</label>
+                <input type="checkbox" id="c7" name="cc" />
+                <label for="c7"><span></span>150-160 см</label>
+            </div>
+        </div>
+        <div class="for_how">
+            <h4>Возраст</h4>
+            <div class="check">
+                <img src="images/gor.png" alt=""/>
+            </div>
+            <h4>Стиль</h4>
+            <div class="check">
+                <input type="checkbox" id="c8" name="cc" />
+                <label for="c8"><span></span>школьный</label>
+                <input type="checkbox" id="c9" name="cc" />
+                <label for="c9"><span></span>повседневный</label>
+                <input type="checkbox" id="c10" name="cc" />
+                <label for="c10"><span></span>празднечный</label>
+                <input type="checkbox" id="c11" name="cc" />
+                <label for="c11"><span></span>карнавальные костюмы</label>
+                <input type="checkbox" id="c12" name="cc" />
+                <label for="c12"><span></span>домашний</label>
+            </div>
+        </div>
+        <div class="for_how">
+            <h4>Ткань</h4>
+            <div class="check">
+                <input type="checkbox" id="c13" name="cc" />
+                <label for="c13"><span></span>хлопок</label>
+                <input type="checkbox" id="c14" name="cc" />
+                <label for="c14"><span></span>шелк</label>
+                <input type="checkbox" id="c15" name="cc" />
+                <label for="c15"><span></span>джинс</label>
+                <input type="checkbox" id="c16" name="cc" />
+                <label for="c16"><span></span>кружева</label>
+                <input type="checkbox" id="c17" name="cc" />
+                <label for="c17"><span></span>что-то</label>
+                <input type="checkbox" id="c18" name="cc" />
+                <label for="c18"><span></span>что-то</label>
+                <input type="checkbox" id="c19" name="cc" />
+                <label for="c19"><span></span>что-то</label>
+            </div>
+        </div>
+        <div class="for_how">
+            <h4>Вид одежды</h4>
+            <div class="check">
+                <input type="checkbox" id="c26" name="cc" />
+                <label for="c26"><span></span>футболки</label>
+                <input type="checkbox" id="c20" name="cc" />
+                <label for="c20"><span></span>рубашки</label>
+                <input type="checkbox" id="c21" name="cc" />
+                <label for="c21"><span></span>блузки</label>
+                <input type="checkbox" id="c22" name="cc" />
+                <label for="c22"><span></span>джинмы</label>
+                <input type="checkbox" id="c23" name="cc" />
+                <label for="c23"><span></span>платья</label>
+                <input type="checkbox" id="c24" name="cc" />
+                <label for="c24"><span></span>кофты</label>
+                <input type="checkbox" id="c25" name="cc" />
+                <label for="c25"><span></span>аксуссуары</label>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="wrapper">
+
+	<main class="content">
+        <div class="breadcrumbs">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Одежда</a></li>
+                <li><a href="#">Одежда для мальчиков</a></li>
+                <li><a href="#">Верхняя одежда</a></li>
+            </ul>
+        </div>
+        <div class="list_tovar firs_tlist_tovar_first">
+            <div class="tovar_title">
+                <h3>Футболки</h3>
+                <a class="all" href="#">посмотреть все <img src="images/arr.png" alt=""/></a>
+            </div>
+            <ul class="tovar_list_items">
+                <li>
+                    <a href="#">
+                        <img src="images/tv1.jpg" alt=""/>
+                        <h4>Футболка, похожая на халат</h4>
+                        <span>500 p</span>
+                    </a>
+                <li>
+                    <a href="#">
+                        <img src="images/tv2.jpg" alt=""/>
+                        <h4>Футболка, похожая на платье</h4>
+                        <span>500 p</span>
+                    </a>
+                <li>
+                    <a href="#">
+                        <img src="images/tv3.jpg" alt=""/>
+                        <h4>Футболка, похожая на юбку</h4>
+                        <span>500 p</span>
+                    </a>
+                <li>
+                    <a href="#">
+                        <img src="images/tv4.jpg" alt=""/>
+                        <h4>Футболка, похожая на шарф</h4>
+                        <span>500 p</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="list_tovar">
+            <div class="tovar_title">
+                <h3>Футболки</h3>
+                <a class="all" href="#">посмотреть все <img src="images/arr.png" alt=""/></a>
+            </div>
+            <ul class="tovar_list_items">
+                <li>
+                    <a href="#">
+                        <img src="images/tv1.jpg" alt=""/>
+                        <h4>Футболка, похожая на халат</h4>
+                        <span>500 p</span>
+                    </a>
+                <li>
+                    <a href="#">
+                        <img src="images/tv2.jpg" alt=""/>
+                        <h4>Футболка, похожая на платье</h4>
+                        <span>500 p</span>
+                    </a>
+                <li>
+                    <a href="#">
+                        <img src="images/tv3.jpg" alt=""/>
+                        <h4>Футболка, похожая на юбку</h4>
+                        <span>500 p</span>
+                    </a>
+                <li>
+                    <a href="#">
+                        <img src="images/tv4.jpg" alt=""/>
+                        <h4>Футболка, похожая на шарф</h4>
+                        <span>500 p</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="list_tovar">
+            <div class="tovar_title">
+                <h3>Футболки</h3>
+                <a class="all" href="#">посмотреть все <img src="images/arr.png" alt=""/></a>
+            </div>
+            <ul class="tovar_list_items">
+                <li>
+                    <a href="#">
+                        <img src="images/tv1.jpg" alt=""/>
+                        <h4>Футболка, похожая на халат</h4>
+                        <span>500 p</span>
+                    </a>
+                <li>
+                    <a href="#">
+                        <img src="images/tv2.jpg" alt=""/>
+                        <h4>Футболка, похожая на платье</h4>
+                        <span>500 p</span>
+                    </a>
+                <li>
+                    <a href="#">
+                        <img src="images/tv3.jpg" alt=""/>
+                        <h4>Футболка, похожая на юбку</h4>
+                        <span>500 p</span>
+                    </a>
+                <li>
+                    <a href="#">
+                        <img src="images/tv4.jpg" alt=""/>
+                        <h4>Футболка, похожая на шарф</h4>
+                        <span>500 p</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+	</main><!-- .content -->
+
+	<footer class="footer">
+		<div class="new_items">
+            <h3>Новинки</h3>
+            <div class="new_items_slider">
+                <img src="images/footer_slider.jpg" alt=""/>
+            </div>
+		</div>
+        <div class="footer_menu">
+            <div class="colection">
+                <h3>Коллекции</h3>
+                <ul>
+                    <li><a href="#">Детская комната (1725)</a></li>
+                    <li><a href="#">Ванная (635)</a></li>
+                    <li><a href="#">Одежда (2514)</a></li>
+                    <li><a href="#">Игрушки (76)</a></li>
+                </ul>
+            </div>
+            <div class="map_site">
+                <h3>Карта сайта</h3>
+                <ul>
+                    <li><a href="#">Декор</a></li>
+                    <li><a href="#">Праздники</a></li>
+                    <li><a href="#">Подарки</a></li>
+                    <li><a href="#">Скидки</a></li>
+                </ul>
+            </div>
+            <div class="global_map">
+                <h3>Глобальная карта</h3>
+                <ul>
+                    <li><a href="#">Студия декора</a></li>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Регистрация</a></li>
+                    <li><a href="#">mimimi.ru</a></li>
+                </ul>
+            </div>
+            <div class="contacts">
+                <h3>Контакты</h3>
+                <h4>Мы располагаемся в Москве,
+                    но с радостью отправим Ваш заказ
+                    в любую часть света</h4>
+                <ul>
+                    <li><a href="#"><img src="images/soc_icn1_mini.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/soc_icn2_mini.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/soc_icn3_mini.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/soc_icn4_mini.png" alt=""/></a></li>
+                </ul>
+            </div>
+        </div>
+	</footer><!-- .footer -->
+
+</div><!-- .wrapper -->
+
+</body>
+</html>

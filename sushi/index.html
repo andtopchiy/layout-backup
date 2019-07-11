@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="css/style.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            //Скрыть PopUp при загрузке страницы
+            PopUpHide();
+        });
+        //Функция отображения PopUp
+        function PopUpShow(){
+            $("#popup1").show();
+        }
+        //Функция скрытия PopUp
+        function PopUpHide(){
+            $("#popup1").hide();
+        }
+    </script>
+</head>
+
+<body>
+<div class="shadow">
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt=""/></a>
+            </div>
+            <div class="tel_cart">
+                <div class="tel_header">
+                    <span>475</span>
+                    <h2>781-01-51</h2>
+                    <p>бесплатная доставка по всей Москве*</p>
+                </div>
+                <div class="cart-header">
+                    <a class="cart_a" href="#"><img src="images/cart_icn.png" alt=""/></a>
+                    <h4>оформить заказ:</h4>
+                    <div class="price_header">
+                        <h3>179</h3>
+                        <h4>91 750 <span>руб</span></h4>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="banner">
+                <img src="images/banner1.jpg" alt=""/>
+
+                <div class="zagol_bann">
+                    <h2><a href="#">Закажи ролл <br/> и получи лапшу<br/> в подарок</a></h2>
+                </div>
+                <div class="img_akcii">
+                    <a href="#">
+                    <img src="images/img_ak.png" alt=""/>
+                        <h5>Соусы:</h5>
+                    <ul>
+                        <li>-классический</li>
+                        <li>-сладкий чилли</li>
+                        <li>-кисло-сладкий</li>
+                        <li>-острый</li>
+                    </ul>
+                    </a>
+                </div>
+            </div>
+            <div class="menu_search">
+                <form class="search" action="#">
+                    <button type="submit"><img src="images/searche_icn.png" alt=""/></button>
+                    <input type="text"/>
+                </form>
+                <nav class="main_menu">
+                    <a class="active" href="#">Главная</a>
+                    <a href="#">О доставке</a>
+                    <a href="#">контакты</a>
+                    <a href="#">Отзывы</a>
+                </nav>
+            </div>
+            <div class="clear"></div>
+        </header><!-- .header-->
+
+        <div class="middle">
+
+            <div class="container">
+                <main class="content">
+                    <div class="product_cont">
+                          <div class="product_type">
+                              <div class="b-container">
+                                  <a href="javascript:PopUpShow()"><img src="images/prod_img.jpg" alt=""/>
+
+                                  <h3>Салаты</h3>
+                              </a>
+                              </div>
+
+                              <div class="b-popup" id="popup1">
+                                  <div class="b-popup-content">
+                                      <div class="cont_in_cart">
+                                          <div class="cont_in_tovar green">
+                                              <div class="tovat_sam">
+                                                  <div class="close">
+                                                      <a href="javascript:PopUpHide()"><img src="images/x.png" alt=""/></a>
+                                                  </div>
+                                                  <h3><img src="images/veget_small.png" alt=""/></h3>
+
+                                                  <div class="tovar_img"><img src="images/cartochka_tovar.jpg" alt=""/></div>
+                                                  <div class="opis_tovar">
+                                                      <h4>Унаги спринг</h4>
+                                                      <p>Ролл с копченым угрем и со сливочным сыром, огурцом, маринованным редисом, руккола, рисовая бумага. (8 шт)</p>
+                                                  </div>
+                                                  <div class="akc_price">
+                                                      <p>325 <span>руб</span></p>
+                                                      <a class="arr_prod" href="#">
+                                                          <img src="images/arr_left.png" alt="">
+                                                      </a>
+                                                      <input type="text" value="0">
+                                                      <a class="arr_prod" href="#">
+                                                          <img src="images/arr_right.png" alt="">
+                                                      </a>
+                                                      <input type="submit" class="button" value="">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="product_type">
+                              <a href="#"><img src="images/prod_img1.jpg" alt=""/>
+
+                                  <h3>Суши</h3>
+                              </a>
+                          </div>
+                          <div class="product_type">
+                              <a href="#"><img src="images/prod_img2.jpg" alt=""/>
+
+                                  <h3>Роллы</h3>
+                              </a>
+                          </div>
+                          <div class="product_type">
+                              <a href="#"><img src="images/prod_img3.jpg" alt=""/>
+
+                                  <h3>Темпура</h3>
+                              </a>
+                          </div>
+                          <div class="product_type">
+                              <a href="#"><img src="images/prod_img.jpg" alt=""/>
+
+                                  <h3>Супы</h3>
+                              </a>
+                          </div>
+                          <div class="product_type">
+                              <a href="#"><img src="images/prod_img1.jpg" alt=""/>
+
+                                  <h3>Сашими</h3>
+                              </a>
+                          </div>
+                          <div class="product_type">
+                              <a href="#"><img src="images/prod_img2.jpg" alt=""/>
+
+                                  <h3>Горячее</h3>
+                              </a>
+                          </div>
+                          <div class="product_type">
+                              <a href="#"><img src="images/prod_img3.jpg" alt=""/>
+
+                                  <h3>Сеты</h3>
+                              </a>
+                          </div>
+                          <div class="product_type">
+                              <a href="#"><img src="images/prod_img.jpg" alt=""/>
+
+                                  <h3>Лапша wok wok wok</h3>
+                              </a>
+                          </div>
+                          <div class="product_type">
+                              <a href="#"><img src="images/prod_img1.jpg" alt=""/>
+
+                                  <h3>Закуски</h3>
+                              </a>
+                          </div>
+                          <div class="product_type">
+                              <a href="#"><img src="images/prod_img2.jpg" alt=""/>
+
+                                  <h3>Напитки</h3>
+                              </a>
+                          </div>
+                          <div class="product_type">
+                              <a href="#"><img src="images/prod_img3.jpg" alt=""/>
+
+                                  <h3></h3>
+                              </a>
+                          </div>
+                        <div class="clear"></div>
+                    </div>
+                </main><!-- .content -->
+            </div><!-- .container-->
+
+            <aside class="left-sidebar">
+                <nav class="left_menu">
+                    <h4>Меню</h4>
+                    <div class="left_menu_in">
+                        <a href="#">Роллы</a>
+                        <a href="#">Роллы</a>
+                        <a href="#">Суши</a>
+                        <a href="#">Горячие роллы</a>
+                        <a href="#">Супы</a>
+                        <a href="#">Сашими</a>
+                        <a href="#">Горячее</a>
+                        <a href="#">Сеты</a>
+                        <a href="#">Лапша</a>
+                        <a href="#">Закуски</a>
+                        <a href="#">Напитки</a>
+                    </div>
+                </nav>
+            </aside><!-- .left-sidebar -->
+
+            <aside class="right-sidebar">
+                <div class="akc_skd">
+                    <h4>акции и скидки</h4>
+                    <div class="akc_skd_in">
+                        <a href="#"><img src="images/akc.jpg" alt=""/></a>
+                        <h3>Джифлейм джазз</h3>
+                        <p>Краб, авокадо, лосось...</p>
+                        <div class="akc_price">
+                            <p>325 <span>руб</span></p>
+                            <a class="arr_prod" href="#">
+                                <img src="images/small_arr_left.png" alt="">
+                            </a>
+                            <input type="text" value="0"/>
+                            <a class="arr_prod" href="#">
+                                <img src="images/small_arr_right.png" alt="">
+                            </a>
+                            <input type="submit" class="button" value="">
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+				 <div class="akc_skd">
+                    <h4>акции и скидки</h4>
+                    <div class="akc_skd_in">
+                        <a href="#"><img src="images/akc.jpg" alt=""/></a>
+                        <h3>Джифлейм джазз</h3>
+                        <p>Краб, авокадо, лосось...</p>
+                        <div class="akc_price">
+                            <p>325 <span>руб</span></p>
+                            <a class="arr_prod" href="#">
+                                <img src="images/small_arr_left.png" alt="">
+                            </a>
+                            <input type="text" value="0"/>
+                            <a class="arr_prod" href="#">
+                                <img src="images/small_arr_right.png" alt="">
+                            </a>
+                            <input type="submit" class="button" value="">
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <div class="akc_skd rec">
+                    <h4>рекомендуем</h4>
+                    <div class="akc_skd_in">
+                        <a href="#"><img src="images/rec.jpg" alt=""/></a>
+                        <h3>Унаги спринг</h3>
+                        <p>Коп.угорь, сыр, огурец...</p>
+                        <div class="akc_price">
+                            <p>325 <span>руб</span></p>
+                            <a class="arr_prod" href="#">
+                                <img src="images/small_arr_left.png" alt="">
+                            </a>
+                            <input type="text" value="0"/>
+                            <a class="arr_prod" href="#">
+                                <img src="images/small_arr_right.png" alt="">
+                            </a>
+                            <input type="submit" class="button" value="">
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </aside><!-- .right-sidebar -->
+
+        </div><!-- .middle-->
+
+    </div><!-- .wrapper -->
+</div>
+<footer class="footer">
+    <div class="footer_out">
+        <nav class="footer_menu"><a href="#">Главная</a><a href="#">о доставк</a><a href="#">новости</a><a href="#">контакты</a><a href="#">отзывы</a></nav>
+        <div class="footer_in">
+            <div class="footer_text_block">
+                <h4>Круглосуточная доставка больших суши и роллов</h4>
+                <p>Мы готовим большие вкусные
+                    суши и роллы только из свежих
+                    натуральных ингредиентов.Нам дорог каждый клиент,
+                    потому мы заботимся о
+                    качестве наших услуг!</p>
+            </div>
+            <div class="footer_text_block">
+                <h4>Круглосуточная доставка больших суши и роллов</h4>
+                <p>Мы готовим большие вкусные
+                    суши и роллы только из свежих
+                    натуральных ингредиентов.Нам дорог каждый клиент,
+                    потому мы заботимся о
+                    качестве наших услуг!</p>
+            </div>
+            <div class="footer_text_block">
+                <h4>Круглосуточная доставка больших суши и роллов</h4>
+                <p>Мы готовим большие вкусные
+                    суши и роллы только из свежих
+                    натуральных ингредиентов.Нам дорог каждый клиент,
+                    потому мы заботимся о
+                    качестве наших услуг!</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="footer_tel">
+            <h2>8 495 781-01-51</h2>
+        </div>
+    </div>
+</footer><!-- .footer -->
+</body>
+</html>
