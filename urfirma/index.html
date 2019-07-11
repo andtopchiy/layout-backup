@@ -1,0 +1,213 @@
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer-logo"><a href="#">
+            <div class="slogan">Красоту, комфорт и стиль<br/> Вам подарит</div>
+            <img src="<?php echo $logo ?>" alt="TimeTextile" title="TimeTextile"></a>
+
+            <div class="copyright">© Все права защищены 2015</div>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="<?php echo $this->url->link('common/home'); ?>">Главная</a></li>
+                <li><a href="<?php echo $this->url->link('information/information','information_id=6'); ?>">Доставка</a>
+                </li>
+                <li><a href="<?php echo $this->url->link('information/information','information_id=7'); ?>">Способы
+                    оплаты</a></li>
+                <li><a href="<?php echo $this->url->link('information/news'); ?>">Статьи</a></li>
+            </ul>
+            <ul>
+                <li><a href="<?php echo $this->url->link('information/contact'); ?>">Контакты</a></li>
+                <li><a href="<?php echo $this->url->link('information/information','information_id=8'); ?>">Гарантия</a>
+                </li>
+                <li><a href="<?php echo $this->url->link('information/sitemap'); ?>">Карта сайта</a></li>
+            </ul>
+        </nav>
+        <div class="phone">
+            <div class="tel">
+                <div>(097) 581-83-67</div>
+                <?php if($telephone){ ?>
+                <div><?php echo $telephone ?></div>
+                <?php } ?>
+                <?php if($telephone2){ ?>
+                <div><?php echo $telephone2 ?></div>
+                <?php } ?>
+            </div>
+            <div class="social">
+                <a href="https://vk.com/time_textile" target="_blank" class="vk"></a>
+                <a href="https://www.facebook.com/domtekstil.ua" target="_blank" class="fb"></a>
+                <a href="http://ok.ru/group/53502096375904" target="_blank" class="ok"></a>
+                <a href="http://ok.ru/group/53502096375904" target="_blank" class="insta"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-69476377-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=J8gkbyqTBl9HEeeVji5isdn*o0wFc7znNcWQx1RifzBg1u*/jDn99TtwDpGDhGDSzLUU*NWtJ2ko5kzB/Pvs0CpLZt9nkAPxT/S2EF4O2qIVK16C6uNA6FLKU2nbbRbhztfH4owbQwvYb/cD8CnljdxGgakAyJOdS9rt9Cr1mOU-';</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function () {
+            try {
+                w.yaCounter33318558 = new Ya.Metrika({
+                    id: 33318558,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: true
+                });
+            } catch (e) {
+            }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () {
+                    n.parentNode.insertBefore(s, n);
+                };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+            f();
+        }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/33318558" style="position:absolute; left:-9999px;" alt=""/></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+<div style="display: none;">
+    <div id="exampleModal" class="box-modal">
+        <div class="box-modal_close arcticmodal-close">X</div>
+        <div class="modal-wrap">
+            <form action="" id="contact_popup">
+                <div><b class="red">*</b><input type="text" name="name" placeholder="Имя"></div>
+                <div><b class="red">*</b><input type="text" name="telephone" placeholder="Телефон"></div>
+                <input type="text" name="email" placeholder="E-Mail">
+                <textarea name="enquiry" placeholder="Ваше сообщение"></textarea>
+                <input type="button" onclick="contact()" value="Перезвоните мне" class="btn btn-border">
+            </form>
+        </div>
+    </div>
+</div>
+
+<div style="display: none;">
+    <div id="buyOneClick" class="box-modal">
+        <div class="box-modal_close arcticmodal-close">X</div>
+        <div class="modal-wrap">
+            <form action="" id="buyOneClick_form">
+                <div>Купить в один клик
+                    <div>
+                        <div><b class="red">*</b><input type="text" name="name" placeholder="Имя"></div>
+                        <div><b class="red">*</b><input type="text" name="telephone" placeholder="Телефон"></div>
+                        <?php /*<input type="text" name="email" placeholder="E-Mail">
+                        <textarea name="enquiry" placeholder="Ваше сообщение"></textarea>*/?>
+                        <input type="button" onclick="buyOneClick()" value="Купить" class="btn btn-border">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div style="display: none;">
+    <div id="success" class="box-modal">
+        <div class="box-modal_close arcticmodal-close">X</div>
+        <div class="modal-wrap">
+            some text
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+<?php /*<div id="footer">
+<?php if ($informations) { ?>
+<div class="column">
+    <h3><?php echo $text_information; ?></h3>
+    <ul>
+        <?php foreach ($informations as $information) { ?>
+        <li><a href="<?php echo $information['href']; ?>"><?php echo $information['title']; ?></a></li>
+        <?php } ?>
+    </ul>
+</div>
+<?php } ?>
+<div class="column">
+    <h3><?php echo $text_service; ?></h3>
+    <ul>
+        <li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
+        <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
+        <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
+    </ul>
+</div>
+<div class="column">
+    <h3><?php echo $text_extra; ?></h3>
+    <ul>
+        <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
+        <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+        <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
+        <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
+    </ul>
+</div>
+<div class="column">
+    <h3><?php echo $text_account; ?></h3>
+    <ul>
+        <li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
+        <li><a href="<?php echo $order; ?>"><?php echo $text_order; ?></a></li>
+        <li><a href="<?php echo $wishlist; ?>"><?php echo $text_wishlist; ?></a></li>
+        <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
+    </ul>
+</div>
+</div>
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+<div id="powered"><?php echo $powered; ?></div>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-81714496-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+</div>
+</body></html>*/?>

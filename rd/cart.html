@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <title>Контакты</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <script>
+        $(document).ready(function () {
+            $('.minus').click(function () {
+                var $input = $(this).parent().find('input');
+                var count = parseInt($input.val()) - 1;
+                count = count < 1 ? 1 : count;
+                $input.val(count);
+                $input.change();
+                return false;
+            });
+            $('.plus').click(function () {
+                var $input = $(this).parent().find('input');
+                $input.val(parseInt($input.val()) + 1);
+                $input.change();
+                return false;
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <div class="about-magaz">
+            <h2>Оптовая продажа текстильной продукции</h2>
+
+            <div class="header-search">
+                <form action="#" class="search-form-header">
+                    <input type="search" class="top-search" name="search" placeholder="Поиск товаров...">
+                    <input type="submit" class="search-button-header" value="" id="searchsubmit">
+                </form>
+            </div>
+        </div>
+        <div class="user-menu-header">
+            <nav class="user-m">
+                <a href="#">Регистрация</a>
+                <a href="#" class="active">Войти</a>
+            </nav>
+        </div>
+        <div class="cart-header">
+            <div class="cart-img" id="cart-img"><img src="images/cart_icn.png" alt="cart">
+                <span class="prod-col">2</span>
+            </div>
+            <div class="cart-pop-up">
+                <div class="quantity-prod">
+                    <span><strong>2</strong> <span>товара</span> в корзине</span>
+                </div>
+                <span class="close-pop-cart"></span>
+                <div class="cart-pop-productlist">
+                    <div class="cart-pop-productitem">
+                        <a href="#"><img src="images/cart_pop-img.jpg" alt=""></a>
+                        <h4><a href="#">Индиго с компаньоном</a></h4>
+                        <div class="price-quantity">
+                            <span class="cart-pop-price">
+                                1890.00 руб.
+                            </span>
+                            <span class="cart-pop-quantity">
+                                1 шт.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cart-pop-productitem">
+                        <a href="#"><img src="images/cart_pop-img.jpg" alt=""></a>
+                        <h4><a href="#">Даниэль</a></h4>
+                        <div class="price-quantity">
+                            <span class="cart-pop-price">
+                                2790.00 руб.
+                            </span>
+                            <span class="cart-pop-quantity">
+                                1 шт.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="button-pop-cart">
+                        <a class="in-cart-button" href="cart.html">В корзину</a>
+                        <a class="buynow-cart-button" href="#">Купить сейчас</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="phone-header">
+            <p>+7 (499) 408 66 26</p>
+        </div>
+        <div class="mainmenu">
+            <nav class="menu-m">
+                <ul>
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">О нас</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">Прайс</a>
+                    </li>
+                    <li>
+                        <a href="#">Покупателям</a>
+                        <ul class="menu-lvl2">
+                            <li>
+                                <a href="#">Условия сотрудничества</a>
+                            </li>
+                            <li>
+                                <a href="#">Доставка</a>
+                            </li>
+                            <li>
+                                <a href="#">Оплата</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    <li class="active">
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header><!-- .header-->
+
+    <main class="content">
+        <div class="content-in">
+            <div class="first-cont-block cart-page">
+                <h3>Товар в корзине:</h3>
+                <table class="items-incart-table">
+                    <thead>
+                    <tr>
+                        <td>
+                            Товары / наименование
+                        </td>
+                        <td>
+                            Параметры
+                        </td>
+                        <td>
+                            Количество
+                        </td>
+                        <td>
+                            цена
+                        </td>
+                        <td>
+
+                        </td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <a href="#" class="cart-img-prod"><img src="images/cart_prod_img.png" alt=""></a>
+                            <a href="#" class="cart-name-prod">"Garden feeling"
+                                Турецкое
+                                постельное белье</a>
+                        </td>
+                        <td>
+                            <p>Сатин <span>С 101</span></p>
+                            <p>Цвет: <span>с рисунком</span></p>
+                            <p>Размер: <span>36/38</span></p>
+                        </td>
+                        <td>
+                            <div class="number">
+                                <span class="minus">-</span>
+                                <input type="text" value="2000000"/>
+                                <span class="plus">+</span>
+                            </div>
+                        </td>
+                        <td>
+                            <p>2 945 990 <span>р.</span></p>
+                        </td>
+                        <td>
+                            <a href="#" class="del-item-product">удалить</a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div><!-- .content-in -->
+        <div class="content-in">
+            <div class="first-cont-block cart-page border-block">
+                <div class="cart-form">
+                    <div class="cart-form-left">
+                        <h3>
+                            Основная информация
+                        </h3>
+                        <div class="field-cart-form">
+                            <label for="fio">* Имя - Фамилия - Отчество</label>
+                            <input type="text" name="fio" id="fio" required>
+                        </div>
+                        <div class="field-cart-form">
+                            <label for="e-mail">* E-mail</label>
+                            <input type="email" name="e-mail" id="e-mail" required>
+                        </div>
+                        <div class="field-cart-form">
+                            <label for="pass">* Пароль:</label>
+                            <input type="password" name="pass" id="pass" required>
+                        </div>
+                        <div class="field-cart-form">
+                            <label for="phone">* Телефон</label>
+                            <input type="text" name="phone" id="phone" required>
+                        </div>
+                        <div class="field-cart-form">
+                            <label for="town">* Ваш город </label>
+                            <input type="text" name="town" id="town" required>
+                        </div>
+                        <div class="field-cart-form">
+                            <label for="pogel">Пожелания по заказу<br>
+                                и способу доставки </label>
+                            <textarea name="pogel" id="pogel" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="cart-form-right">
+                        <h3>
+                            Cпособ оплаты
+                        </h3>
+                        <div class="rad-bat">
+                            <input type="checkbox" name="pay" value="На карту продавца">На карту продавца<Br>
+                            <input type="checkbox" name="pay" value="Наложенным платежом">Наложенным платежом<Br>
+                            <input type="checkbox" name="pay" value="По согласованию с клиентом">По согласованию с
+                            клиентом<Br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-in">
+            <div class="first-cont-block cart-page border-block price-cart-bottom">
+                <span>Итого:</span>
+                <span class="itog">
+                    45 456 руб.
+                </span>
+
+                <button class="oform-order">оформить заказ</button>
+            </div>
+        </div>
+    </main><!-- .content -->
+
+</div><!-- .wrapper -->
+
+<footer class="footer">
+    <div class="footer-dark">
+        <div class="footer-dark-in">
+            <div class="footer-logo">
+                <a href="#"><img src="images/logo_footer.png" alt=""></a>
+                <h2>Оптовая продажа<br>
+                    текстильной продукции</h2>
+            </div>
+            <div class="footer-phone">
+                <span>+7 (963) 736-35-36</span>
+            </div>
+            <div class="time-work">
+                <p><span>Время работы</span> офиса:<br>
+                    Пн-ПТ 09-18</p>
+            </div>
+            <div class="footer-geo">
+                <p>Иваново,<br>
+                    ул. 11-я Сосневская, 89</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-grey">
+        <div class="footer-grey-in">
+            <nav class="footer-nav">
+                <a href="#">Карта сайта</a>
+                <a href="#">Контакты</a>
+            </nav>
+            <div class="social-footer">
+                <a href="#" class="vk" target="_blank"></a>
+                <a href="#" class="fb" target="_blank"></a>
+                <a href="#" class="psoc" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+</footer><!-- .footer -->
+
+</body>
+</html>

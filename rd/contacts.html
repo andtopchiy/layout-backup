@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <title>Контакты</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        </div>
+        <div class="about-magaz">
+            <h2>Оптовая продажа текстильной продукции</h2>
+
+            <div class="header-search">
+                <form action="#" class="search-form-header">
+                    <input type="search" class="top-search" name="search" placeholder="Поиск товаров...">
+                    <input type="submit" class="search-button-header" value="" id="searchsubmit">
+                </form>
+            </div>
+        </div>
+        <div class="user-menu-header">
+            <nav class="user-m">
+                <a href="#">Регистрация</a>
+                <a href="#" class="active">Войти</a>
+            </nav>
+        </div>
+        <div class="cart-header">
+            <div class="cart-img" id="cart-img"><img src="images/cart_icn.png" alt="cart">
+                <span class="prod-col">2</span>
+            </div>
+            <div class="cart-pop-up">
+                <div class="quantity-prod">
+                    <span><strong>2</strong> <span>товара</span> в корзине</span>
+                </div>
+                <span class="close-pop-cart"></span>
+                <div class="cart-pop-productlist">
+                    <div class="cart-pop-productitem">
+                        <a href="#"><img src="images/cart_pop-img.jpg" alt=""></a>
+                        <h4><a href="#">Индиго с компаньоном</a></h4>
+                        <div class="price-quantity">
+                            <span class="cart-pop-price">
+                                1890.00 руб.
+                            </span>
+                            <span class="cart-pop-quantity">
+                                1 шт.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="cart-pop-productitem">
+                        <a href="#"><img src="images/cart_pop-img.jpg" alt=""></a>
+                        <h4><a href="#">Даниэль</a></h4>
+                        <div class="price-quantity">
+                            <span class="cart-pop-price">
+                                2790.00 руб.
+                            </span>
+                            <span class="cart-pop-quantity">
+                                1 шт.
+                            </span>
+                        </div>
+                    </div>
+                    <div class="button-pop-cart">
+                        <a class="in-cart-button" href="cart.html">В корзину</a>
+                        <a class="buynow-cart-button" href="#">Купить сейчас</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="phone-header">
+            <p>+7 (499) 408 66 26</p>
+        </div>
+        <div class="mainmenu">
+            <nav class="menu-m">
+                <ul>
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">О нас</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="#">Прайс</a>
+                    </li>
+                    <li>
+                        <a href="#">Покупателям</a>
+                        <ul class="menu-lvl2">
+                            <li>
+                                <a href="#">Условия сотрудничества</a>
+                            </li>
+                            <li>
+                                <a href="#">Доставка</a>
+                            </li>
+                            <li>
+                                <a href="#">Оплата</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Новости</a>
+                    </li>
+                    <li class="active">
+                        <a href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header><!-- .header-->
+
+    <main class="content">
+        <div class="content-in">
+            <div class="first-cont-block">
+                <div class="map">
+                    <script type="text/javascript" charset="utf-8" async
+                            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=g74Fi-_I3Mk6GJmsEDEtF8QD1u2_pm8Y&width=100%&height=470&lang=ru_UA&sourceType=constructor&scroll=true"></script>
+                </div>
+                <div class="contacts-form">
+                    <h4>Задать вопросы</h4>
+                    <form action="#">
+                        <div class="field-cont-form">
+                            <label for="name">Ваше имя*</label>
+                            <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="field-cont-form">
+                            <label for="email">Ваш E-mail*</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="field-cont-form">
+                            <label for="mess">Сообщение*</label>
+                            <textarea name="mess" id="mess" cols="30" rows="10" required></textarea>
+                        </div>
+                        <div class="field-cont-form">
+                            <label for="capcha">Защита от автоматических сообщений</label>
+                            <span id="capcha"><img src="images/capcha.jpg" alt=""></span>
+                            <label for="capcha-field">Введите слово на картинке*</label>
+                            <input type="text" name="capcha" id="capcha-field" required>
+                        </div>
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+                <div class="cont-adres">
+                    <p><strong>Телефон</strong>: 8 (963) 151-11-11<br>
+                        <strong>Адрес</strong>: г. Иваново, ул. 11-Сосневская, д. 89
+                    </p>
+                </div>
+            </div>
+
+        </div><!-- .content-in -->
+    </main><!-- .content -->
+
+</div><!-- .wrapper -->
+
+<footer class="footer">
+    <div class="footer-dark">
+        <div class="footer-dark-in">
+            <div class="footer-logo">
+                <a href="#"><img src="images/logo_footer.png" alt=""></a>
+                <h2>Оптовая продажа<br>
+                    текстильной продукции</h2>
+            </div>
+            <div class="footer-phone">
+                <span>+7 (963) 736-35-36</span>
+            </div>
+            <div class="time-work">
+                <p><span>Время работы</span> офиса:<br>
+                    Пн-ПТ 09-18</p>
+            </div>
+            <div class="footer-geo">
+                <p>Иваново,<br>
+                    ул. 11-я Сосневская, 89</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer-grey">
+        <div class="footer-grey-in">
+            <nav class="footer-nav">
+                <a href="#">Карта сайта</a>
+                <a href="#">Контакты</a>
+            </nav>
+            <div class="social-footer">
+                <a href="#" class="vk" target="_blank"></a>
+                <a href="#" class="fb" target="_blank"></a>
+                <a href="#" class="psoc" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+</footer><!-- .footer -->
+
+</body>
+</html>

@@ -1,0 +1,414 @@
+@media screen and  (max-width: 1280px) {
+    .foto-block:after{
+        display: none;
+    }
+    .foto-block{
+        margin-right: 20px;
+        box-sizing: border-box;
+    }
+    .float-block:after, .float-block:before{
+        display: none;
+    }
+
+
+}
+@media screen and  (max-width: 1180px) {
+    .steps-projects {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and  (max-width: 1170px) {
+    .logo {
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and  (max-width: 1024px) {
+    .foto-block img{
+        height: 400px;
+    }
+    .right-foto-block{
+        margin-bottom: 100px;
+    }
+    .text-foto-block p {
+        font-size: 21px;
+        line-height: 1.5;
+    }
+}
+@media screen and  (max-width: 950px) {
+    .logo img {
+        width: 100px;
+        margin-top: 25px;
+    }
+
+    .main-menu {
+        margin-top: 25px;
+
+    }
+
+    .main-menu a {
+        font-size: 13px;
+    }
+
+    .top-block-footer{
+        flex-direction: column;
+    }
+    .logo-footer{
+        margin-bottom: 50px;
+    }
+    .footer-menu{
+        width: 100%;
+    }
+}
+
+@media screen and  (max-width: 769px) {
+    .main-menu {
+        justify-content: flex-end;
+    }
+
+    .main-menu > a {
+        display: none;
+    }
+
+    .main-menu .slicknav_menu {
+        display: block;
+    }
+    .step3{
+        border: none;
+    }
+    .advang-blocks{
+        flex-wrap: wrap;
+    }
+    .adv-block{
+        width: 45%;
+    }
+    .adv-block span{
+        margin: 0 auto 50px;
+    }
+    .manager-list img {
+        width: 60%;
+    }
+    .partners-logo{
+        height: 234px;
+    }
+
+}
+
+@media screen and  (max-width: 767px) {
+    .main-menu {
+        width: auto;
+    }
+    .step3{
+        border-right: 2px solid #e5e5e5;
+    }
+    .step2, .step4{
+        border: none;
+    }
+    .logo img {
+        width: 100px;
+        margin-top: 18px;
+    }
+    .parallax-block{
+        height: 330px;
+    }
+    .top-title {
+        top: 26px;
+    }
+    .top-title h1{
+        font-size: 22px;
+        padding-bottom: 24px;
+    }
+    .top-title h2{
+        font-size: 17px;
+        line-height: 1.5;
+    }
+    #container-parallax{
+        text-align: center;
+    }
+    #container-parallax > img{
+        width: 160%;
+        height: 330px;
+        margin-top: -50px;
+    }
+    .right-foto-block{
+        display: block;
+        text-align: center;
+    }
+    .foto-block, .left-foto-block .foto-block{
+        margin: 0 0 20px;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .foto-block:before{
+        display: none;
+    }
+    .text-foto-block p, .left-foto-block .text-foto-block p{
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0;
+    }
+    .text-foto-block{
+        padding: 0 20px!important;
+    }
+    .foto-block img {
+        width: 100%;
+        height: auto;
+    }
+    .right-foto-block {
+        margin-bottom: 40px;
+    }
+    .manager-list{
+        padding-bottom: 0;
+    }
+    .managements-block h3{
+        font-size: 20px;
+        margin-bottom: 40px;
+        margin-top: 34px;
+    }
+    .manager-item{
+        margin-bottom: 30px;
+    }
+    .manager-name{
+        font-size: 22px;
+        margin-bottom: 14px;
+    }
+    .position-manag{
+        font-size: 14px;
+    }
+    .map-block iframe{
+        height: 360px;
+    }
+    .footer {
+        background-image: none;
+    }
+    .footer-menu{
+        display: none;
+    }
+    .top-block-footer:after{
+        display: none;
+    }
+
+    .bottom-block-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .copyright{
+        padding-top: 0px;
+    }
+
+    body {
+        font: 14px/20px 'HelveticaNeue', sans-serif;
+    }
+
+    .page-in{
+        padding-top: 40px;
+    }
+    .page-in h2{
+        font-size: 20px;
+        margin-bottom: 38px;
+        text-transform: uppercase;
+    }
+
+    .page-in p{
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+    .page-in h5{
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    .page-in ul li{
+        line-height: 20px;
+        padding-bottom: 20px;
+    }
+    .page-block h3{
+        font-size: 20px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+    }
+    .float-block{
+        padding-top: 35px;
+        padding-bottom: 5px;
+    }
+    .contact-item span{
+        font-size: 15px;
+    }
+    .contact-item img{
+        padding-bottom: 20px;
+    }
+    .partners-in{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .partners-item{
+        width: 100%;
+        margin: 0 0 35px;
+    }
+    .partners-logo{
+        height: 200px;
+        box-sizing: border-box;
+        margin-bottom: 25px;
+    }
+    .partners-logo img{
+        height: 63px;
+    }
+    .partners-item h5{
+        font-size: 20px;
+
+    }
+    .service-item{
+        padding: 0 15px 50px;
+    }
+
+    .service-page .float-block{
+        margin-bottom: 40px;
+    }
+
+    .service-item img{
+        height: 50px;
+    }
+    .service-item h5{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .service-page h2{
+        text-transform: none;
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .page-in ul li:before {
+        width: 3px;
+        height: 3px;
+        margin-bottom: 3px;
+        margin-right: 6px;
+    }
+
+}
+
+@media screen and  (max-width: 551px) {
+
+    .steps-projects{
+        padding: 0 20px;
+    }
+    .steps-projects:before{
+        background: url("../images/line_left_m.png") no-repeat;
+        height: 195px;
+        width: 210px;
+        left: 2%;
+        top: -30px;
+    }
+    .steps-projects:after{
+        background: url("../images/line_right_m.png") no-repeat;
+        height: 195px;
+        width: 210px;
+        right: 0;
+        bottom: -80px;
+    }
+    .step-project{
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .step-project p{
+        font-size: 15px;
+        /*height: 110px;*/
+    }
+    .step-project:hover{
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .step-project p:after{
+        margin: 18px auto 15px;
+    }
+    .about-us-block h3{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .about-us-textblock h4{
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+    .about-us-textblock p{
+        font-size: 13px;
+    }
+    .advang-blocks{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .adv-block > div {
+        height: 70px;
+    }
+    .adv-block > div>img{
+        height: 51px;
+    }
+    .adv-block span {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+    .about-us-textblock-in {
+        padding: 0 20px;
+    }
+    .about-our-comp{
+        background: #f9f9f9;
+        padding-top: 1px;
+        margin-top: 41px;
+    }
+    .about-us-block h3{
+        margin-top: 34px;
+    }
+
+    .managements-block h3:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 80px;
+        height: 3px;
+        background: #e9af4b;
+        bottom: -21px;
+        left: 50%;
+        margin-left: -40px;
+    }
+
+}
+
+@media screen and  (max-width: 425px) {
+    .our-projects h3{
+        font-size: 20px;
+    }
+    .our-projects > p {
+        font-size: 17px;
+    }
+    .step-project{
+        background-size: 66px;
+        background-position: 50% 23px;
+        padding-top: 100px;
+    }
+    .step-project:hover{
+        padding-top: 100px;
+        background-position: 50% 23px;
+        background-size: 66px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .step-project:last-child:hover{
+        border: none;
+    }
+}
+@media screen and  (max-width: 375px) {
+    #container-parallax > img{
+        width: 160%;
+        margin-top: -30px;
+    }
+}
+@media screen and  (max-width: 355px) {
+    #container-parallax > img{
+        width: 180%;
+        margin-top: 0px;
+    }
+    .parallax-block{
+        padding-bottom: 30px;
+    }
+}

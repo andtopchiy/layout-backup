@@ -1,0 +1,584 @@
+@media screen and (max-width: 1620px) {
+
+    #pineap-top {
+        right: -100px;
+    }
+
+    .block11 {
+        background: url("../images/crok.png") no-repeat 120% 420px, url("../images/block11_tree.png") no-repeat 90% 0;
+    }
+
+}
+
+@media screen and (max-width: 1530px) {
+
+    #pineap-top {
+        right: 0;
+        top: 600px
+    }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+    .block1 {
+        overflow: hidden;
+    }
+
+    .block11 {
+        background: url("../images/crok.png") no-repeat 150% 420px, url("../images/block11_tree.png") no-repeat 90% 0;
+    }
+
+    .raspis-block h4 {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    .main-menu {
+        margin: 89px 0 0 2%;
+    }
+
+    .block1 {
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (max-width: 1250px) {
+    .block1-bottom-text {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .main-menu {
+        margin: 89px 0 0 1%;
+        width: 64%;
+    }
+
+    .main-menu > a {
+
+    }
+
+    .rasp-btn {
+        font-size: 20px;
+        padding-left: 55px;
+    }
+
+    .send-rasp {
+        font-size: 20px;
+    }
+
+    .block11 {
+        background: url("../images/crok.png") no-repeat 180% 420px, url("../images/block11_tree.png") no-repeat 90% 0;
+    }
+
+}
+
+@media screen and (max-width: 1140px) {
+    .block1-bottom-text {
+        width: 35%;
+        vertical-align: middle;
+    }
+
+    #tree-top {
+        width: 80px;
+    }
+
+    #pineap-top {
+        width: 80px;
+    }
+
+    #block2-lion {
+        width: 350px;
+        top: 20px;
+    }
+
+    .footer-cont {
+        margin-left: 20%;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .block2-list {
+        max-width: 760px;
+    }
+
+    #block3-parrot {
+        width: 260px;
+    }
+
+    .block6-item {
+        width: 44%;
+    }
+
+    .footer-cont {
+
+        margin-left: 10%;
+    }
+
+    .map-conts {
+        right: 1%;
+    }
+
+    .price-item {
+        margin: 0 20px 100px;
+    }
+}
+
+@media screen and (max-width: 970px) {
+
+    .main-menu > a {
+        margin: 0 3%;
+    }
+
+    #block2-lion {
+        width: 260px;
+        top: 70px;
+    }
+
+    .block3-item span {
+        font-size: 20px;
+    }
+
+    #block3-lion {
+        width: 400px;
+    }
+
+    .block10-in h3 {
+        padding-left: 0;
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .rasp-btn {
+        font-size: 18px;
+        padding-left: 55px;
+    }
+
+    .send-rasp {
+        font-size: 18px;
+    }
+
+    .block11 {
+        background: url("../images/block11_tree.png") no-repeat 90% 0;
+    }
+
+    .price-item {
+        margin: 0 20px 100px;
+    }
+
+    .block11-in {
+        padding: 100px 0 100px 0;
+        text-align: center;
+    }
+
+    .block8 h3 {
+        padding-left: 0px;
+        text-align: center;
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .main-menu {
+        width: 61%;
+    }
+
+    .main-menu > a {
+        margin: 0 2%;
+    }
+
+    .rasp-btn {
+        font-size: 18px;
+        padding-left: 55px;
+
+    }
+
+    .send-rasp {
+        font-size: 18px;
+    }
+
+    .top-logo img {
+        width: 100%;
+    }
+
+    .top-logo {
+
+        margin-top: 70px;
+    }
+
+    .block1-left-side {
+        display: none;
+    }
+
+    .block1-right-side {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 2%;
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+
+    .block1-bottom-text {
+        width: 100%;
+        margin: 20px auto;
+        padding: 0 2%;
+        box-sizing: border-box;
+    }
+
+    .greet-title {
+        margin: 0 auto;
+        display: block;
+    }
+
+    #block2-lion {
+        display: none;
+    }
+
+    .block2-in h3 {
+        text-align: center;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .footer-cont {
+
+        margin-left: 5%;
+    }
+
+    .soc-foot {
+        margin-right: 20px;
+    }
+
+    .map-conts {
+        position: static;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0 0;
+        min-height: 340px;
+    }
+
+    .rasp-items {
+        text-align: center;
+    }
+
+    .rasp-item {
+        min-height: 200px;
+        width: 45%;
+        text-align: left;
+    }
+
+    .rasp-btn {
+        font-size: 22px;
+        padding-left: 70px;
+
+    }
+
+    .send-rasp {
+        padding-top: 16px;
+        padding-left: 70px;
+        font-size: 22px;
+    }
+
+    .raspis-block ul li {
+        display: block;
+        margin: 30px auto;
+    }
+
+    .raspis-block ul {
+        background: none;
+    }
+
+    ul li .hover-block-rasp {
+        min-height: inherit !important;
+
+        padding-bottom: 20px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-top: 290px;
+        top: -20px !important;
+        left: -20px !important;
+    }
+
+    .hover-block-rasp img {
+        display: none;
+    }
+
+    .hover-block-rasp p {
+        padding-right: 0
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .prog-zan {
+        background: url("../images/cal_line_g.png") repeat-x, url("../images/cal_line_g.png") 0px 86px repeat-x;
+    }
+
+}
+
+@media screen and (max-width: 820px) {
+
+    .main-menu {
+        width: 73%;
+    }
+
+    #block3-parrot {
+        position: absolute;
+        top: 13px;
+        right: 20px;
+        width: 260px;
+    }
+
+    .block4-in h3 {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .block4-toptext {
+        padding-left: 0px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width: 775px) {
+    .block3-item {
+        width: 48%;
+    }
+
+    .footer-in {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .soc-foot {
+        float: none;
+        margin: 15px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .header {
+        background: none;
+        height: 136px;
+    }
+
+    .slicknav_menu .soc-header {
+        margin-top: 0;
+    }
+
+    .slicknav_menu {
+        display: block;
+        text-align: center;
+        background: url("../images/bg.jpg");
+        padding: 10px 0;
+    }
+
+    .main-menu {
+        display: none;
+    }
+
+    .top-logo {
+        padding-top: 30px;
+        margin: 0 auto;
+        width: auto;
+        display: block;
+        max-width: 250px;
+    }
+
+    .block1-right-side h3 {
+        padding-top: 0;
+    }
+
+    .block1-bottom-text {
+        text-align: center;
+    }
+
+    .block1-video {
+        margin-top: 0px;
+    }
+
+    #pineap-top, #tree-top {
+        display: none;
+    }
+
+    .block2-in h3 {
+        font-size: 36px;
+    }
+
+    .block2-in {
+        padding: 50px 0 50px 0;
+    }
+
+    .block3-toptext {
+        padding: 0 10px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .block3 > h3 {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #block3-leaf {
+        display: none;
+    }
+
+    .block5-in {
+        background: #fff;
+    }
+
+    .block6-item {
+        width: 80%;
+    }
+
+    .block6-in h3 {
+        font-size: 35px;
+        font-family: 'ptsans_caprion_bold', sans-serif;
+        line-height: 1;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .block7 h3, .block7-toptext, .block7-bottom-text, .block7-soc, .block12-in h3 {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+    .rasp-items {
+        text-align: center;
+    }
+
+    .rasp-item {
+        min-height: 200px;
+        width: 80%;
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+    #modal_form {
+        width: 100%;
+        max-width: 320px;
+        margin-left: -160px;
+    }
+
+    .submit-top {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .greet-title {
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100%;
+        padding: 15px 15px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .block1-right-side h3 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .block3-items {
+        text-align: center;
+    }
+
+    .block3-item {
+        width: 80%;
+    }
+
+    #block3-lion {
+        display: none;
+    }
+
+    .block3 {
+        padding-bottom: 100px;
+    }
+
+    .caled-input {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .submit-form {
+        width: 90%;
+    }
+
+    .block5-in h3 {
+        font-size: 28px;
+    }
+
+    .block5 {
+        padding-bottom: 40px;
+    }
+
+    .block6-in h3 {
+        font-size: 30px;
+    }
+
+    .block7-soc a {
+        padding: 10px 0;
+        display: inline-block;
+    }
+
+    .varn-cal {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    .prog-zan {
+        background: url("../images/cal_line_g.png") repeat-x, url("../images/cal_line_g.png") 0px 86px repeat-x, url("../images/cal_line_g.png") 0px 172px repeat-x;
+    }
+
+    .block6-item a img {
+        max-width: 100%;
+    }
+
+    .rasp-btn {
+        padding-top: 25px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .send-rasp {
+        text-align: center;
+        padding-top: 3px;
+    }
+
+    .rasp-item ul li {
+        font-size: 15px;
+
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .block1-sidephone p {
+        font-size: 23px;
+    }
+
+    .block1-podps {
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+    }
+}

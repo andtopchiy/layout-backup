@@ -1,0 +1,812 @@
+@media screen and (max-width: 1920px) {
+    .competition-block {
+        width: 838px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .office {
+        margin-left: 20px;
+    }
+
+    .service-block {
+        padding-right: 0;
+        margin-right: 20px;
+    }
+
+    .logo-block {
+        margin-left: 20px;
+    }
+
+    .main-menu {
+        padding-right: 0;
+        margin-right: 20px;
+    }
+
+    /*.competition-block {
+        width: 770px;
+    }*/
+    .competition-block {
+        width: 838px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+
+    .competition-block {
+        width: 838px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .competition-block {
+        width: 818px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .menu-tiles a {
+        margin-bottom: 6px;
+        margin-right: 6px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .content {
+        padding: 0 0;
+    }
+
+    .competition-block {
+        width: 770px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    .main-slider {
+        width: 67%;
+    }
+
+    .menu-tiles a {
+        flex-direction: row;
+    }
+
+    .menu-tiles {
+    }
+}
+
+@media screen and (max-width: 1224px) {
+    .competition-block {
+        width: 777px;
+    }
+}
+
+@media screen and (max-width: 1156px) {
+    .birthdays-block.new-pers-block {
+        display: none;
+    }
+
+    .successful-block {
+        display: none;
+    }
+
+    .birthdays-block.new-pers-block.new-pers-block-mob {
+        display: block;
+        max-width: 49%;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .successful-block.mob {
+        display: block;
+        max-width: 49%;
+        width: 100%
+    }
+
+    .jobs-block {
+        background: #ffffff;
+        border: 1px solid #eaedf4;
+        box-sizing: border-box;
+        max-width: 49%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .poll-block {
+        background: #ffffff;
+        border: 1px solid #eaedf4;
+        box-sizing: border-box;
+        max-width: 49%;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .slider-succ-project {
+        width: 100%;
+    }
+
+    .form-block-idea .idea-add-input {
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .second-block {
+        display: block;
+    }
+
+    .news-block {
+        width: 100%;
+    }
+
+    .right-sidebar {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        padding-left: 0;
+        width: 100%;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+
+    .right-sidebar > div {
+        width: 49%;
+        max-width: 460px;
+    }
+
+    .calendar-block {
+        margin-right: 1%;
+    }
+
+    .birthdays-block {
+        margin-left: 1%;
+        margin-bottom: 23px;
+    }
+
+    .birthdays-block .month-block-btn {
+        padding-top: 33px;
+    }
+
+    .birthdays-item {
+        padding: 16px 0 11px 13px;
+    }
+
+    .birthdays-list {
+        padding-bottom: 59px;
+    }
+
+    .birthday-date {
+        top: 20px;
+    }
+
+    .news-block {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main-menu {
+        margin: 30px auto 0;
+        float: none;
+        text-align: center;
+    }
+
+    .menu-tiles a {
+        margin-right: 5px;
+    }
+
+    .main-menu a {
+        font-size: 12px;
+    }
+
+    .logo-block {
+        display: none;
+    }
+
+    .header-in-serv {
+        position: relative;
+    }
+
+    .service-block {
+        margin-top: -47px;
+    }
+
+    .logo-tab-block {
+        width: 145px;
+        height: 50px;
+        background: url("../images/logo.jpg") no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    .content {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .form-block-idea .idea-add-input {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 818px) {
+    .main-slider {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .first-block {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .menu-tiles {
+        justify-content: space-between;
+        height: 176px;
+        margin-top: 10px;
+    }
+
+    .menu-tiles a {
+        width: 24%;
+        height: 100%;
+    }
+
+    .menu-tiles a:nth-child(2n) {
+        margin-right: 0px;
+    }
+
+    .menu-tiles a {
+        margin-right: 0px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .fourth-block {
+        display: block;
+    }
+
+    .resources-block, .idea-block {
+        width: 100%;
+    }
+
+    .resources-items {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        height: 240px;
+        flex-wrap: wrap;
+    }
+
+    .resources-items .resources-item {
+        width: 49%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .konk-popup-block {
+        background: #ffffff;
+        width: 90%;
+        min-height: auto;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .right-sidebar {
+        display: block;
+    }
+
+    .right-sidebar > div {
+        width: 100%;
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .news-item {
+        flex-direction: column;
+    }
+
+    .news-body-out {
+        padding-left: 20px;
+    }
+
+    .news-img {
+        text-align: center;
+    }
+
+    .birthdays-list {
+        padding-bottom: 9px;
+    }
+
+    .birthdays-block .month-block-btn {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 734px) {
+    .birthdays-block.new-pers-block.new-pers-block-mob {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .successful-block.mob {
+        display: block;
+        max-width: 100%;
+        width: 100%
+    }
+
+    .third-blcok2 {
+        display: block
+
+    }
+
+    .successful-block.mob .slider-succ-project > div > img {
+        width: auto;
+        height: 100%;
+    }
+
+    .slider-succ-project {
+        width: auto;
+        overflow: hidden;
+    }
+
+    .slider-succ-project {
+        width: auto;
+    }
+
+    .idea-add {
+        position: absolute;
+        top: -49px;
+        right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .service-block {
+        margin-top: 0;
+    }
+
+    .logo-tab-block {
+        display: none;
+    }
+
+    .ring, .settings, .question, .office, .main-menu {
+        display: none !important;
+    }
+
+    .logo-block {
+        display: inline-block;
+        float: none;
+        margin-left: 0;
+        margin-top: 14px;
+    }
+
+    .logo-block a {
+        width: 144px;
+        height: 53px;
+        background-size: cover;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .header-serv {
+        text-align: left;
+    }
+
+    .slicknav_menu.activemenu {
+        background: #000000a1;
+        z-index: 2;
+    }
+
+    .slicknav_menu {
+        display: block;
+        position: absolute;
+        padding-left: 15px;
+        padding-top: 12px;
+        width: 100%;
+        padding-bottom: 40px;
+        box-sizing: border-box;
+    }
+
+    .slicknav_nav a:focus {
+        outline: none;
+    }
+
+    .slicknav_nav a {
+        display: block;
+        font-size: 24px;
+        color: #fff;
+        text-decoration: none;
+        margin: 50px 0 0;
+    }
+
+    /**********************************************/
+    .slicknav_btn {
+        position: relative;
+        display: inline-block;
+        width: 35px;
+        height: 25px;
+    }
+
+    .slicknav_btn .slicknav_menutxt {
+        position: absolute;
+        left: 0;
+        top: 10px;
+    }
+
+    .slicknav_btn .slicknav_menutxt,
+    .slicknav_btn .slicknav_menutxt:before,
+    .slicknav_btn .slicknav_menutxt:after {
+        position: absolute;
+        display: block;
+        content: '';
+        height: 5px;
+        width: 35px;
+        background: white;
+        border-radius: 1px;
+        cursor: pointer;
+    }
+
+    .slicknav_btn .slicknav_menutxt:before {
+        top: -10px;
+    }
+
+    .slicknav_btn .slicknav_menutxt:after {
+        bottom: -10px;
+    }
+
+    .slicknav_btn .slicknav_menutxt, .slicknav_btn .slicknav_menutxt:before, .slicknav_btn .slicknav_menutxt:after {
+        transition: all 500ms ease-in-out;
+    }
+
+    .slicknav_btn.active .slicknav_menutxt {
+        background-color: transparent;
+    }
+
+    .slicknav_btn.active .slicknav_menutxt:before, .slicknav_btn.active .slicknav_menutxt:after {
+        top: 0;
+    }
+
+    .slicknav_btn.active .slicknav_menutxt:before {
+        transform: rotate(45deg);
+    }
+
+    .slicknav_btn.active .slicknav_menutxt:after {
+        transform: rotate(-45deg);
+    }
+
+    .third-blcok1 {
+        display: block;
+    }
+
+    .jobs-block {
+        background: #ffffff;
+        border: 1px solid #eaedf4;
+        box-sizing: border-box;
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .poll-block {
+        background: #ffffff;
+        border: 1px solid #eaedf4;
+        box-sizing: border-box;
+        max-width: 100%;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    /**************************************************/
+    .idea-tabs-block .ui-tabs .ui-tabs-nav {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        height: 110px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .idea-block .ui-tabs-nav li:hover, .idea-block .ui-tabs-nav li.ui-tab.ui-tabs-active, .idea-block .ui-tabs-nav li {
+        text-align: center;
+        width: 30%;
+        margin: 0 auto 18px;
+    }
+
+    .idea-block .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+        padding-top: 10px !important;
+        float: none;
+        display: inline-block;
+    }
+
+    .form-block-idea .idea-add-input {
+        width: 100%;
+    }
+
+    .form-block-idea {
+        padding-right: 10px;
+    }
+
+    .form-block-idea input[type=submit] {
+        display: block;
+        text-align: center;
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    .form-block-idea {
+        padding-bottom: 20px;
+    }
+
+    .resources-items {
+        display: block;
+        height: auto;
+    }
+
+    .resources-items .resources-item {
+        width: auto;
+    }
+
+    .konkurs_close {
+        display: none;
+    }
+
+    .top-edit-line {
+        background: none;
+        padding-left: 0;
+        border: none;
+    }
+
+    .top-edit-line .edit-btn:before {
+        content: "";
+        background: url("../images/edit_icn.png") no-repeat;
+        height: 16px;
+        width: 16px;
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: -3px;
+    }
+
+    .top-edit-line .show-lenta:before {
+        content: "";
+        background: url("../images/go_icn.png") no-repeat;
+        height: 15px;
+        width: 11px;
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: -3px;
+    }
+
+    .top-edit-line a {
+        display: block;
+        padding-left: 0;
+        background: #f6f6f8;
+        margin-right: 0;
+        margin-bottom: 10px;
+        background-image: none;
+        border-top: 1px solid #d9dce3;
+        border-bottom: 1px solid #d9dce3;
+        text-align: center;
+    }
+
+    .body-popup {
+        margin-top: 0;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .img-popup {
+        padding-bottom: 15px;
+        border-bottom: 1px solid #d9dce3;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .block-descript {
+        flex-direction: column;
+        padding-right: 10px;
+    }
+    .block-descript h5{
+        width: 100%;
+        margin-bottom: 11px;
+    }
+    .descr-text p{
+        min-height: auto;
+    }
+    .descr-text{
+        width: 100%;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .slider-big {
+        height: 230px;
+        overflow: hidden;
+        margin-bottom: 7px;
+    }
+
+    .menu-tiles {
+        justify-content: space-between;
+        height: 291px;
+    }
+
+    .menu-tiles a {
+        width: 49%;
+        height: 49%;
+    }
+
+    .menu-tiles a span {
+        margin-top: 85px;
+        font-size: 12px;
+    }
+
+    .news-img {
+        text-align: left;
+        width: 180px;
+    }
+
+    .news-body-out {
+        position: static;
+    }
+
+    .news-item {
+        position: relative;
+        border-top: none;
+        margin-right: 0;
+        padding-right: 10px;
+    }
+
+    .news-img img {
+        width: 180px;
+    }
+
+    .news-date {
+        top: 5px;
+        right: 10px;
+    }
+
+    .news-body-out {
+        padding-left: 10px;
+    }
+
+    .social-items {
+        display: none;
+    }
+
+    .news-list {
+        height: 825px;
+        overflow: hidden;
+    }
+
+    .news-body p {
+        width: 100%;
+    }
+
+    .news-body {
+        max-height: 58px;
+    }
+
+    .all-news {
+        text-align: center;
+    }
+
+    .vcal-header__label {
+        padding: 0;
+    }
+
+    .all-news a {
+        width: 90%;
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .jobs-all {
+        display: block;
+    }
+
+    .col-job {
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #3e3f43;
+        display: block;
+    }
+
+    .jobs-all a {
+        width: 90%;
+        box-sizing: border-box;
+        text-align: center;
+        display: block;
+        margin: 28px auto;
+    }
+
+    .poll-block-in {
+        min-height: 276px;
+        min-height: 276px;
+    }
+
+    .allpoll a {
+        width: 90%;
+        box-sizing: border-box;
+        text-align: center;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .name-compet {
+        position: static;
+        background: #fff;
+        text-align: left;
+        color: #333333;
+        margin-left: 5px;
+        padding-left: 5px;
+    }
+
+    .name-compet h5 {
+        font-size: 12px;
+        color: #333333;
+        text-align: left;
+    }
+
+    .competition-block .allprojcts a {
+        display: block;
+        text-align: center;
+        width: 280px;
+        margin: 40px auto 0;
+    }
+
+    .competition-block .slick-next, .competition-block .slick-prev {
+        display: none !important;
+    }
+
+    .jobs-block-in img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .birthdays-name span:first-child {
+        width: 110px;
+    }
+
+    .month-block-btn {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        padding: 20px 20px 5px;
+
+    }
+
+    .month-block-btn a {
+        width: 108px;
+        margin-bottom: 15px;
+    }
+}
